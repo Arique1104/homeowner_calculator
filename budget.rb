@@ -5,7 +5,7 @@ def pay_house_off(house_cost, annual_income)
   months = house_cost / monthly_contribution
   puts "If I made #{annual_income}"
   puts "And I saved #{monthly_contribution}"
-  puts "It will take me #{months} months to pay it off"
+  puts "It will take me #{months} months to pay it (the house) off"
   puts "Or #{months / 12} years"
 end
 # if I make x and I put y amount away, how many years will it take me to pay it off?
@@ -18,7 +18,7 @@ end
  # 10%
  # 20%
  # 30%
-def one_third_monthly_income(monthlyn)
+def one_third_monthly_income(monthly)
   monthly / 3
 end
 
